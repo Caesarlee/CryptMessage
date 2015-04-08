@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ContactsActivity!</string>
+    <string name="app_name">SMS</string>
+    <string name="sms_number">请输入收件人号码</string>
+    <string name="sms_content">编辑您的短信</string>
+    <string name="sms_send">发送</string>
+    <string name="cor_key">协商密钥</string>
+
+
+</resources>

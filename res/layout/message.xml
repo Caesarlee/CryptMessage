@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#0a0b0c"
+    android:orientation="vertical" >
+
+    <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/keyBtn"
+        android:text="@string/cor_key"/>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="250dp" >
+
+        <TextView
+            android:id="@+id/keyText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/sms_number"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/sms_content" />
+
+    <Button
+        android:id="@+id/button02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sms_send" />
+
+</LinearLayout>
